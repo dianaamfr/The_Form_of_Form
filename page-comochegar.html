@@ -1,0 +1,280 @@
+    <!DOCTYPE html>
+    <html lang="pt">
+
+    <head>
+        <title>The Form of Form | Trienal de Arquitetura de Lisboa</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width" name="viewport">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="styleschegar.css" rel="stylesheet" type="text/css">
+        <link href="favicon.ico" rel="icon" type="image/x-icon">
+        <link rel="stylesheet" href="fontes/font-awesome/css/font-awesome.min.css">
+        <link href="slick-1.6.0/slick-1.6.0/slick/slick.css" rel="stylesheet" type="text/css">
+        <link href="slick-1.6.0/slick-1.6.0/slick/slick-theme.css" rel="stylesheet" type="text/css">
+        <script src="jquery-3.2.1.min.js">
+        </script>
+        <script src="slick-1.6.0/slick-1.6.0/slick/slick.js" type="text/javascript">
+        </script>
+        <script src="mapa.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgcjtuWIuRLbnfMhItJYeMNonI2A6xHh0"></script>
+         <script src="myscript.js"></script>
+
+    </head>
+
+    <body>
+        <div id="tudo">
+            <header>
+        <div>
+        <a href="index.html"><img src="imagens/logo.png" alt="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a id="programa-a" href="page-programa.html#inicioprograma">Programa</a></li>
+                <li><a href="page-inscricoes.html#inscricoes">Inscrições</a></li>
+                <li><a href="page-comochegar.html#chegar-ancora">Como chegar</a></li>
+                <li><a href="page-noticias.html#noticiasdestaque">Notícias</a></li>
+            </ul>
+            </nav>
+             <div id="iconmenu"><i class="fa fa-bars"></i>
+                        </div>
+
+    <div id="menuresponsive">
+    <ul>
+                <li><a id="programa-a" href="page-programa.html#inicioprograma">Programa</a></li>
+                <li><a href="page-inscricoes.html#inscricoes">Inscrições</a></li>
+                <li><a href="page-comochegar.html#chegar-ancora">Como chegar</a></li>
+                <li><a href="page-noticias.html#noticiasdestaque">Notícias</a></li>
+            </ul>
+    </div>
+
+        </div>
+    </header>
+
+            <div id="slider">
+        <div class="slide" id="slide1">
+            <div class="descriptionfundo">
+                <div class="sliderdescription">
+                    <h1>A Forma da Forma</h1>
+                    <p class="legendaslider">Três arquitectos constroem um diálogo que desafia as noções de autoria e  da forma.</p>
+                    <a class="buttoninicio button1" href="page-aformadaforma.html">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slide"  id="slide2">
+            <div class="descriptionfundo">
+                <div class="sliderdescription">
+                    <h1>Obra</h1>
+                    <p class="legendaslider">A exposição reflete sobre as transformações dos estaleiros de obra contemporâneos.</p>
+                    <a class="buttoninicio button2" href="page-obra.html">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide"  id="slide3">
+            <div class="descriptionfundo">
+                <div class="sliderdescription">
+                    <h1 class="h1smaller">O Mundo nos Nossos Olhos</h1>
+                    <p class="legendaslider">A exposição sublinha transformações na morfologia urbana explora essas mudanças.</p>
+                    <a class="buttoninicio button3" href="page-omundonosnossosolhos.html">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="slide4">
+            <div class="descriptionfundo">
+                <div class="sliderdescription">
+                    <h1 class="h1smaller">Sines: Logística à Beira-Mar</h1>
+                    <p class="legendaslider">Uma exposição sobre a relação entre a cidade e a transformação da paisagem.</p>
+                    <a class="buttoninicio button4" href="page-sineslogisticaabeiramar.html">Ver mais</a>
+                    </div></div>
+           <!-- <img id="vetor-home1" src="imagens/vetores/vetor-home1.png" alt="">
+            <img id="vetor-home2" src="imagens/vetores/vetor-home2.png" alt="">-->
+                </div>
+            </div>
+
+            <p id="chegar-ancora"></p>
+                    <main>
+                        <div id="chegar-page">
+                            <h2 class="h2center">Chegar a Lisboa</h2>
+
+                            <div id="chegarbuttons">
+                                <a href="#pagchegar1">
+                                    <div class="icon" id="icon1"><img class="selectedbtn" id="imgchegar1" src="imagens/icons/chegar1.svg" alt="carro">
+                                        <div class="button-chegar selectedbtn" id="button-chegar1">
+                                            <p>De Carro</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#pagchegar2">
+                                    <div class="icon" id="icon2"><img id="imgchegar2" src="imagens/icons/chegar2.svg" alt="carro">
+                                        <div class="button-chegar" id="button-chegar2">
+                                            <p>De Comboio</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#pagchegar3">
+                                    <div class="icon" id="icon3"><img id="imgchegar3" src="imagens/icons/chegar3.svg" alt="carro">
+                                        <div class="button-chegar" id="button-chegar3">
+                                            <p>De Barco</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#pagchegar4">
+                                    <div class="icon" id="icon4"><img id="imgchegar4" src="imagens/icons/chegar4.svg" alt="carro">
+                                        <div class="button-chegar" id="button-chegar4">
+                                            <p>De Avião</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="pag-chegar" id="pag-chegar1">
+                                <div class="mapa" id="mapa1"></div>
+                                <div id="cardiv">
+                                    <div class="chegardiv-text">
+                                        <div class="chegar-content">
+                                            <h3>De Carro</h3>
+                                            <p>As melhores formas de entrar em Lisboa são a A1 e a A2, com ligações nacionais e ligações internacionais. A paisagem é belíssima e compensa as horas de condução.</p>
+                                            <p id="indicacao">Calcule aqui o seu trajeto para Lisboa:</p>
+                                            <input type="text" placeholder="Origem" id="origin">
+                                            <div id="submit-map">
+                                                <p>Calcular Rota</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pag-chegar" id="pag-chegar2">
+                                <div class="mapa" id="mapa2"></div>
+                                <div id="comboiodiv">
+                                    <div class="chegardiv-text">
+                                        <div class="chegar-content">
+                                            <h3>De Comboio</h3>
+                                            <p>Composições nacionais e internacionais chegam todos os dias a <span class="bold">Santa Apolónia</span>, muito próxima de todos os bairros tradicionais e do Terreiro do Paço. Mas se quiser juntar uma experiência arquitetónica única à sua chegada, opte por ficar na <span class="bold">Gare do Oriente.</span></p>
+                                            <a target="_blank" href="https://www.cp.pt/passageiros/pt/consultar-horarios">
+                                                <div id="button-chegar">
+                                                    <p>Consultar Comboios</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="pag-chegar" id="pag-chegar3">
+                                <div class="mapa" id="mapa3"></div>
+                                <div id="barcodiv">
+                                    <div class="chegardiv-text">
+                                        <div class="chegar-content">
+                                            <h3>De Barco</h3>
+                                            <p>Quem chega de barco à cidade, tem uma das melhores vistas de Lisboa – a do rio – e pode atracar em 3 lugares distintos, todos eles próximos do centro. Se vier num navio-cruzeiro, pode ficar em <span class="bold">Alcântara, na Rocha Conde de Óbidos ou em Santa Apolónia.</span>Se vier a velejar no seu barco, existem várias <span class="bold">marinas</span> ao subir o rio.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pag-chegar" id="pag-chegar4">
+                                <div class="mapa" id="mapa4"></div>
+                                <div id="aviaodiv">
+                                    <div class="chegardiv-text">
+                                        <div class="chegar-content">
+                                            <h3>De Avião</h3>
+                                            <p>Aterra no <span class="bold">Aeroporto internacional de Lisboa</span>, que fica a uns meros 7 kms do centro da cidade. As principais companhias aéreas internacionais voam para cá, e, a apenas 3 horas de voo das principais capitais europeias, é muito fácil chegar.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="espacos">
+                                <h2 class="h2center">Os vários locais</h2>
+                                <p>A 4ª Edição do Trienal de Arquitetura de Lisboa decorre por toda a cidade, espalhado por vários espaços. </p>
+                                <p>Descubra-os no mapa abaixo e não perca a oportunidade de colaborar no maior evento de arquitetura de Portugal.</p>
+                                <div id="mapa5"></div>
+                                <div id="numeros">
+
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num1.png" alt="numero legenda">
+                                        <p>Carlos Carvalho - Arte Contemporânea</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num2.png" alt="numero legenda">
+                                        <p>Casa Roque Gameiro</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num3.png" alt="numero legenda">
+                                        <p>Cinema Ideal</p>
+                                    </div>
+
+
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num4.png" alt="numero legenda">
+                                        <p>Fundaçao Calouste Gulbenkian</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num5.png" alt="numero legenda">
+                                        <p>Garagem Sul - Centro Cultural de Belém</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num6.png" alt="numero legenda">
+                                        <p>Loja nord</p>
+                                    </div>
+
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num7.png" alt="numero legenda">
+                                        <p>MAAT</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num8.png" alt="numero legenda">
+                                        <p>MNAC</p>
+                                    </div>
+                                    <div class="numbloco">
+                                        <img src="imagens/numeros/num9.png" alt="numero legenda">
+                                        <p>Sede da Trienal de Lisboa</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </main>
+           <footer>
+    <div class="footer1">
+        <div class="footer-content">
+        <div class="blocofooter1">
+            <h6>Contacte-nos</h6>
+            <div class="footerline"><i class="fa fa-home"></i><p>Campo de Santa Clara, 142-145 1100-474 Lisboa, Portugal</p></div>
+            <div class="footerline"><i class="fa fa-phone"></i><p>+351 213 469 366</p></div>
+            <div class="footerline"><i class="fa fa-envelope"></i><p>trienal@trienaldelisboa.com</p></div>
+        </div>
+        <div class="blocofooter">
+            <h6>Conecte-se</h6>
+            <div class="footerline"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/trienaldelisboa/" target="_blank">Facebook</a></div>
+            <div class="footerline"><i class="fa fa-instagram"></i><a href="https://www.instagram.com/trienaldelisboa/" target="_blank">Instagram</a></div>
+            <div class="footerline"><i class="fa fa-pinterest-p"></i><a href="https://www.pinterest.pt/trienallisboa/" target="_blank">Pinterest</a></div>
+            <div class="footerline"><i class="fa fa-twitter"></i><a href="https://twitter.com/trienaldelisboa" target="_blank">Twitter</a></div>
+        </div>
+            <div class="blocofooter">
+            <h6>Edicões passadas</h6>
+            <div class="footerline"><a href="https://www.facebook.com/trienaldelisboa/" target="_blank">2013 Close, Closer</a></div>
+            <div class="footerline"><a href="https://www.instagram.com/trienaldelisboa/" target="_blank">2010 Falemos de Casas</a></div>
+            <div class="footerline"><a href="https://www.pinterest.pt/trienallisboa/" target="_blank">2007 Vazios Urbanos</a></div>
+        </div>
+         <div class="blocofooter3">
+            <h6>Acompanhe as novidades</h6>
+            <input type="text" placeholder="Nome Completo">
+             <input type="text" placeholder="Email"><input type="submit">
+        </div>
+        </div></div>
+    <div class="footer2">
+        <p><span class="spanbold"> &copy;2017 The Form of Form</span> - 4ª edicão do Trienal de Arquitura de Lisboa</p></div>
+    </footer>
+        </div>
+    </body>
+
+    </html>
