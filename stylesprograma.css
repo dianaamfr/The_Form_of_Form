@@ -1,0 +1,722 @@
+/*PROGRAMA pagina botao1 */
+
+#inicioprograma {
+    padding-top: 130px;
+    margin: auto;
+}
+
+#inicioprograma h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#organizar {
+    font-weight: 200;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#botoesprograma {
+    overflow: auto;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /* Firefox 4 */
+    -webkit-transition: all 0.5s;
+    /* Safari and Chrome */
+    -o-transition: all 0.5s;
+    /* Opera */
+    width: 1200px;
+    margin: auto;
+}
+
+#botoeslimite{
+    width: 1000px;
+    margin: auto;
+    /*! text-align: center; */
+    overflow: auto;
+}
+
+.fixedbuttons {
+    position: fixed;
+    top: 60px;
+    background-color: rgba(240, 240, 240,0.95);
+    padding-top: 20px;
+    z-index: 11;
+    clear: both;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 1400px;
+    padding-bottom: 10px !important;
+}
+
+.spacer {
+    width: 100%;
+    display: none;
+    height: 30px;
+}
+
+.button-programa {
+    width: 23.8%;
+    margin: auto;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    float: left;
+    margin-right: 1.6%;
+    background-color: rgba(211, 155, 127, 0.4);
+    /*! font-family: OpenSans; */
+}
+
+.button-programa:hover {
+    cursor: pointer;
+    background-color: rgba(211, 155, 127, 0.9);
+}
+
+.button-programa p {
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    letter-spacing: 0.01em;
+}
+
+.selectedprog {
+    background-color: rgba(211, 155, 127, 0.9);
+}
+
+.selectedprog p {
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.pag-programa {
+    display: none;
+    width: 100%;
+    margin-top: 80px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#pag-programa1 {
+    /*display: block;*/
+    margin-top: 60px;
+}
+
+.selectedpage {
+	display: block;
+}
+
+.exp-tipologia {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.exp-nome {
+    font-family: Playfair;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.exp-local {
+    font-weight: 200;
+    font-size: 16px;
+    /*! display: block; */
+    float: left;
+    width: 100%;
+    /*! color: #49576B; */
+}
+
+.exp-data {
+    font-weight: 200;
+    font-size: 16px;
+    /*! display: inline-block; */
+    margin-bottom: 10px;
+    float: left;
+    /*! color: #49576B; */
+}
+
+.seta {
+    float: right;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    margin-right: 40px;
+    width:55px;
+}
+
+.seta:hover{
+    cursor: pointer;
+}
+
+.setabaixo{
+    float: right;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    margin-right: 40px;
+    width:55px;
+    display:none;
+}
+
+.setabaixo:hover{
+    cursor: pointer;
+}
+
+/*
+.seta img {
+    width: 30%;
+    /*! display: inline-block; */
+
+
+/*
+    margin: auto;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+*/
+/*
+.setarodada {
+    transform-origin: left;
+    transform: translate(50%, 50%) rotate(90deg) ;
+}*/
+
+.seta:hover img {
+    cursor: pointer;
+}
+
+.setacolor1 {
+    background-color: #49576B;
+}
+
+.setacolor2 {
+    background-color:#936E68 ;
+}
+
+.setacolor3 {
+    background-color:#B5C1CF ;
+}
+
+.setacolor4 {
+    background-color:#747B77;
+}
+
+.setacolor1:hover {
+    background-color: rgba(84, 93, 109, 1);
+}
+
+.setacolor2:hover {
+    background-color: rgba(158, 121, 114, 1);
+}
+
+.setacolor3:hover {
+    background-color: rgba(190, 200, 212, 1);
+}
+
+.setacolor4:hover {
+    background-color: rgba(100, 117, 106, 1);
+}
+
+.exp-principal {
+    width: 76.5%;
+    float: left;
+    background-color: rgb(234, 234, 234);
+    /*! overflow: auto; */
+    padding-left: 4%;
+    height: 100%;
+}
+
+.infoexpo {
+    width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    overflow: auto;
+    display: inline-block;
+}
+
+.table-exp {
+    display: none;
+}
+
+.displayexp {
+    display: table!important;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(200,200,200,0.3);
+    margin-bottom: 50px;
+}
+
+tr {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    height: 60px;
+    font-family: Muli;
+}
+
+th {
+    font-size: 16px;
+    font-weight: 400!important;
+}
+
+td {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(70, 70, 70);
+    line-height: 23px;
+}
+
+.t1 {
+    padding-left: 7.4%;
+    width: 28%;
+    font-weight: 300;
+    padding-right: 1.6%;
+}
+
+.t2 {
+    width: 20.6%;
+    font-weight: 100;
+    padding-right: 1.6%;
+}
+
+.t3 {
+    margin-left: 1.6%;
+    width: 20.6%;
+    font-weight: 100;
+}
+
+.t4 {
+    margin-left: 1.6%;
+    width: 12.2%;
+    font-weight: 100;
+}
+
+.tablecolor1 tr:nth-child(even) {
+    background-color: rgba(73,87,107,0.3);
+}
+
+.tablecolor3 tr:nth-child(even) {
+    background-color: rgba(181, 193, 207, 0.3);
+}
+
+.tablecolor2 tr:nth-child(even) {
+    background-color: rgba(147, 110, 104, 0.3);
+}
+
+.tablecolor4 tr:nth-child(even) {
+    background-color: rgba(100, 117, 106, 0.3);
+}
+
+.expomargem {
+    margin-bottom: 40px;
+    /*! overflow: auto; */
+    display: flex;
+    height: 230px;
+    /*! border: 1px; */
+}
+
+.expomargem:hover{
+   -webkit-box-shadow: 0px 0px 28px -1px rgba(140,140,140,0.40);
+-moz-box-shadow: 0px 0px 28px -1px rgba(140,140,140,0.89);
+box-shadow: 0px 0px 28px -1px rgba(180,180,180,0.89);
+transform: scale(1.01);
+}
+
+.imgexpo img {
+    /*! width: 560px; */
+    height: 100%;
+}
+
+.imgexpo {
+    width: 29.5%;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+/*PROGRAMA botao2 - data/hora */
+
+.meses {
+    transition: all 1s;
+    -moz-transition: all 1s;
+    /* Firefox 4 */
+    -webkit-transition: all 1s;
+    /* Safari and Chrome */
+    -o-transition: all 1s;
+    /* Opera */
+    /*! margin-bottom: 20px; */
+    text-align: center;
+}
+
+.meses li {
+    list-style-type: none;
+    margin: 0 2% 0 2%;
+    display: inline-block;
+}
+
+.meses li a {
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    text-align: right;
+    float: left;
+    opacity: 0.7;
+    letter-spacing: 0.06em;
+}
+
+.meses li:hover a {
+    color: rgb(64, 78, 96);
+}
+
+.meses li a:hover{
+    cursor: pointer;
+}
+
+.messelected {
+    opacity: 1!important;
+    font-weight: 400!important;
+}
+
+.fixedmeses {
+    position: fixed;
+    top: 119px;
+    width: 1000px !important;
+    max-width: 1120px;
+    background-color: rgba(240, 240, 240,0.95);
+    padding-top: 28px;
+    z-index: 2;
+    clear: both;
+    text-align: center;
+}
+
+.spacermeses {
+    height: 40px;
+}
+
+.mes-content {
+    overflow: auto;
+    margin-top: 40px;
+}
+
+.prog-data-esq {
+    width: 49.2%;
+    float: left;
+    margin-bottom: 70px;
+    clear: both;
+}
+
+.prog-data-dir {
+    width: 49.2%;
+    float: right;
+    margin-left: 1.6%;
+    margin-bottom: 70px;
+}
+
+.pag-programa h4 {
+    margin-bottom: 50px;
+    clear: both;
+    /*! color: #D39B7F; */
+    color: rgb(80,80,80);
+    text-transform: none!important;
+}
+
+.dia {
+    font-family: Playfair;
+    font-size: 35px;
+    display: inline-block;
+    float: left;
+    width: 13.8%;
+    margin-right: 3.25%;
+    text-align: right;
+    color: #D39B7F;
+}
+
+.horas {
+    border-left: 2px solid rgba(211,155,127,0.7);
+    height: 100%;
+    width: 82%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.table-data {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+
+.table-data td {
+    display: block;
+    height: auto;
+}
+
+.data {
+    font-family: Playfair;
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: rgb(211,155,127);
+}
+
+.data-nome {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.data-tipologia {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.data-local {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+/*PROGRAMA publico-alvo*/
+
+.pag3-esq {
+    width: 43%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.margin{
+    margin-right: 2%;
+}
+
+.pag3-dir {
+    width: 47.2%;
+    padding: 1%;
+    float: left;
+    margin-left: 1.6%;
+}
+
+.pag3-color1 {
+    background-color: rgba(84, 93, 109, 0.3);
+}
+
+.pag3-color3 {
+    background-color: rgba(200, 210, 220, 0.3);
+}
+
+.pag3-color2 {
+    background-color: rgb(234, 234, 234);
+}
+
+.pag3-color4 {
+    background-color: rgba(100, 117, 106, 0.3);
+}
+
+.pag3-tipologia {
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.pag3-titulo {
+    font-family: Muli;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: rgb(80,80,80);
+}
+
+.pag3-description {
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+h6 {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    width: 22%;
+    letter-spacing: 0.02em;
+}
+
+.pag3-details {
+    margin-bottom: 5px;
+    width: 76%;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 1601px) {
+    #botoesprograma {
+        width: 1000px;
+    }
+    
+    .fixedbuttons{
+        width: 1080px!important;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    #inicioprograma {
+        padding-top: 100px;
+    }
+    #inicioprograma h2 {
+        margin-bottom: 60px;
+    }
+    
+    h2{
+    font-size: 30px;    
+    }
+    
+    #organizar {
+        font-size: 14px;
+        width: 900px;
+    }
+    
+    .button-programa {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .button-programa p {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+    }
+    .pag-programa {
+        width: 900px;
+    }
+    #pag-programa1 {
+        margin-top: 50px;
+    }
+    
+    #botoesprograma {
+        width: 1030px;
+    }
+    
+   #botoeslimite {
+        width: 900px;
+    }
+    
+    .fixedmeses{
+        width: 900px!important;
+    }
+    
+    .meses li a{
+        font-size: 14px;
+    }
+    
+    .expomargem{
+        height: 170px
+    }
+    
+    .exp-tipologia{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    
+    .exp-nome{
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    
+    .seta{
+        width: 43px;
+    }
+    
+    .setabaixo{
+        width: 43px;
+    }
+    
+    .exp-data{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    
+    .exp-local{
+        font-size: 13px;
+    }
+    
+    .pag3-tipologia {
+    font-size: 13px;
+        margin-bottom: 0px;
+ 
+}
+    .pag3-titulo {
+    font-size: 24px;
+        margin-bottom: 29px;
+ 
+}
+    .pag3-description {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+    
+    .pag3-details {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+    
+    h4{
+        font-size: 25px;
+    }
+    
+    .table-data{
+        margin-bottom: 20px;
+    }
+    
+    .dia{
+        font-size: 30px;
+    }
+    
+    .data-nome{
+        margin-bottom: 0px;
+    }
+    
+    .data-tipologia{
+        margin-bottom: 17px;
+    }
+    
+
+}

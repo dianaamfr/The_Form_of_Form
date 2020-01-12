@@ -1,0 +1,509 @@
+#inscricoes {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 120px;
+    padding-top: 100px;
+    margin-top: 90px;
+    overflow: auto;
+}
+.insctext {
+   font-weight: 200;
+font-family: Playfair;
+font-size: 21px;
+color: rgb(70, 70, 70);
+line-height: 39px;
+letter-spacing: 0.05em;
+margin: auto;
+width: 51%;
+}
+
+#insctext2 {
+   font-weight: 300;
+font-family: Muli;
+font-size: 19px;
+color: #D39B7F;
+letter-spacing: -0.01em;
+margin: auto;
+width: 51%;
+margin: auto;
+line-height: 35px;
+margin-top: 30px;
+opacity: 0.9;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+form{
+   margin-top: 100px;
+width: 66%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.input 			  { 
+    font-family: Muli;
+    font-weight: 200;
+    display: inline-block;
+    width: 49.34%;
+    margin-bottom: 30px;
+}
+
+.input2{
+    font-size: 18px;
+padding-left: 3%;
+display: inline-block;
+background-color: rgb(240, 240, 240);
+border: 1px solid rgb(220, 220, 220);
+transition: .4s ease-in-out;
+width: 84%;
+box-sizing: border-box;
+color: rgb(200,200,200);
+height: 50px;
+}
+
+input{
+   font-size: 18px;
+    padding-left: 3%;
+    display: inline-block;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(220, 220, 220);
+    transition: .4s ease-in-out;
+    width: 84%;
+    box-sizing: border-box;
+    color: rgb(200,200,200);
+    height: 50px;
+}
+
+input:focus{
+    outline: 0;
+    border:2px solid  #D39B7F;
+    color: rgb(130,130,130);
+}
+
+.label-focus{
+    background-color: #D39B7F ;
+    width:13%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.grande{
+    width: 80%;
+}
+
+.pequeno{
+    width: 19%;
+}
+
+.pequeno input{
+    padding-left: 7%;
+}
+
+.label-focus2{
+    background-color: #D39B7F ;
+    width:8%!important;
+}
+
+.grande label{
+width:10%;
+}
+
+.grande input{
+width:90%;
+    padding-left: 1.5%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(200,200,200);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(200,200,200);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(200,200,200);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(200,200,200);
+}
+
+label{
+       width: 16%;
+    float: left;
+    background-color: rgba(211,155,127,0.7);
+    height: 50px;
+    transition: 0.6s ease-in-out;
+}
+
+label2{
+       width: 16%;
+    float: left;
+    background-color: rgba(211,155,127,0.7);
+    height: 50px;
+}
+
+.no-label{
+    width: 100%!important;
+}
+
+.labelcolaborar .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.labelcolaborar .fa:before {
+    font-size: 25px;
+    color: rgb(230,230,230);
+}
+
+form .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+form .fa:before {
+    font-size: 25px;
+    color: rgb(230,230,230);
+}
+
+#opcoes{
+    width: 49.34%;
+overflow: auto;
+float: left;
+}
+
+select:focus{
+    outline: 0;
+    border:2px solid  #D39B7F;
+    color: rgb(130,130,130);
+}
+
+.label-focus3{
+    background-color: #D39B7F ;
+    width:14%;
+}
+
+.pequeno2{
+    width: 24%;
+margin-left: 1.3%;
+}
+
+.pequeno2 input{
+    width: 100%;
+    padding-left: 7%;
+}
+
+/*checkboxes*/
+
+.checkboxes{
+    float: left;
+width: 100%;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    background-color: transparent !important;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 17px;
+    width: 90%;
+    /*! margin-right: 60px; */
+    text-align: left;
+    line-height: 30px;
+    /* margin-bottom: 5px; */
+}
+
+input[type="checkbox"] + label .square {
+    display:inline-block;
+    width: 6%;
+    height: 22px;
+    margin: 1% 3% 0 0;
+    vertical-align: top;
+    cursor:pointer;
+    background-color: rgb(240,240,240);
+    border: 1px solid rgb(220,220,220);
+}
+
+input[type="checkbox"]:checked + label .square {
+    background-image:url(imagens/checked.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.explicacao{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.margin-left{
+    margin-left: 6%;
+}
+
+.preco{
+    /* margin-left: 10px; */
+    color:#D39B7F;
+    float: right;
+    width: 10%;
+    text-align: right;
+    font-weight: 400;
+}
+
+.opcao{
+    width: 47%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+    height: 50px;
+    color:rgb(80,80,80);
+}
+
+#maisinfo{
+   width: 100%;
+   overflow: auto;
+   margin-top: 20px;
+   position: relative;
+}
+
+input[type=submit] {
+    background-color:rgba(211,155,127,0.7);
+    color: rgb(240,240,240);
+    width: 20%;
+        padding-left: 0;
+    float: right;
+    margin-top: 30px;
+    height: 45px;
+}
+
+input[type=submit]:hover{
+    background-color:rgba(211,155,127,1);
+    cursor: pointer;
+    border: 0!important;
+}
+
+input[type=submit]:focus{
+    background-color:rgba(211,155,127,1);
+    cursor: pointer;
+    border: 0;
+}
+
+textarea{
+    font-size: 18px;
+padding-left: 10%;
+display: inline-block;
+background-color: rgb(240, 240, 240);
+border: 1px solid rgb(220, 220, 220);
+transition: .4s ease-in-out;
+width: 100%;
+box-sizing: border-box;
+color: rgb(200,200,200);
+height: 50px;
+font-family: Muli;
+font-weight: 300;
+padding-top: 10px;
+padding-bottom: 10px;
+height: 200px;
+float: right;
+    position: relative;
+    padding-right: 18px;
+    resize: none;
+}
+
+textarea:focus{
+    outline: 0;
+    border:2px solid  #D39B7F;
+    color: rgb(130,130,130);
+}
+
+#label4 {
+    width: 8%;
+    /*! margin-top: 20px; */
+    position: absolute;
+    /*! top: 0; */
+}
+
+.label-focus4{
+    background-color: #D39B7F;
+}
+
+/*colaborar*/
+
+#colaborar{
+    margin: auto;
+    margin-top:20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:rgba(211,155,127,0.9) ;
+    text-align: center;
+    overflow: auto;
+}
+
+#colaborar h3{
+    color: rgb(70,70,70);
+}
+
+#colaborar p{
+    color: rgb(70,70,70);
+}
+
+#insctext3 {
+   font-weight: 300;
+font-family: Muli;
+font-size: 17px;
+margin: auto;
+width: 51%;
+margin: auto;
+line-height: 35px;
+margin-top: 30px;
+opacity: 0.9;
+color: rgb(80,80,80)!important;
+}
+
+.labelcolaborar{
+       width: 16%;
+    float: left;
+    background-color: rgb(240,240,240);
+    height: 50px;
+    box-sizing: border-box;
+    opacity: 0.8 !important;
+}
+
+.labelcolaborar .fa::before {
+    color:rgb(229,155,127) ;
+}
+
+#form2 input:focus{
+    outline: 0;
+    border: 1px solid rgb(220, 220, 220);
+     -webkit-box-shadow:0 0 7px rgb(220, 220, 220);
+       -moz-box-shadow:0 0 7px rgb(220, 220, 220);
+            box-shadow:0 0 7px rgb(220, 220, 220);
+    color: rgb(130,130,130);
+}
+
+.labelcolaborar-focus{
+    /*! background-color:; */
+    width:14%;
+    opacity: 1 !important;
+}
+
+#precovazio{
+    width: 20%;
+    float: right;
+    height: 35px;
+    background-color: transparent;
+    border-bottom:1px solid rgb(80,80,80) !important;
+    border:0;
+    /*! border-style: solid; */
+    color: rgb(80,80,80) !important;
+    text-align: right;
+}
+
+#precovazio:focus{
+    box-shadow: none !important;
+    border: 0 !important;
+    border-bottom: 2px solid rgb(80,80,80) !important;
+}
+
+#valor{
+    width: 70%;
+}
+
+#valor span{
+    width: 8%;
+}
+
+#form2 input[type=submit]{
+    border: 0!important;
+    background-color: rgba(240,240,240,0.8);
+    color:#D39B7F ;
+}
+
+#form2 input[type=submit]:hover{
+    border: 0!important;
+    background-color: rgba(240,240,240,1);
+    box-shadow: none!important;
+}
+
+#form2 input[type=submit]:focus{
+    border: 0!important;
+    background-color: rgba(240,240,240,1);
+    box-shadow: none!important;
+}
+
+@media screen and (max-width: 1441px) {
+    
+input 				{
+    height: 43px;
+}
+    
+.input2 				{
+    height: 43px;
+}
+    
+label{ 
+    height: 43px;
+}
+
+label2{
+    height: 43px;
+    }
+
+.insctext{
+        width: 60%;
+    }
+
+    .fa:before{
+        font-size: 20px;
+    }
+    
+    input[type=submit] {
+    height: 40px;
+}
+    
+    input[type="checkbox"] + label .square {
+    height: 18px;
+}
+    
+    .labelcolaborar{
+        height: 43px;
+    }
+    
+    form .bold{
+    font-size: 23px;
+}
+    
+    #insctext3{
+        width: 60%;
+    }
+
+}

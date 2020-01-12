@@ -1,0 +1,763 @@
+/*Banner*/
+
+.bannerexpoimg {
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerexpoimg .legendaslider {
+    font-weight: 200;
+}
+
+#bannerexpo1 {
+    background-image: url(imagens/exposicao/banner1.jpg);
+}
+
+#bannerexpo2 {
+    background-image: url(imagens/exposicao/banner2.jpg);
+}
+
+#bannerexpo3 {
+    background-image: url(imagens/exposicao/banner3.jpg);
+}
+
+#bannerexpo4 {
+    background-image: url(imagens/exposicao/banner4.jpg);
+}
+
+.h1ller {
+    font-size: 28px!important;
+    line-height: 40px;
+}
+
+.descriptionexpofundo {
+    background-color: rgba(240, 240, 240, 0.95);
+    width: 32%;
+    margin: 0;
+    left: 0;
+    margin: auto;
+    position: relative;
+    padding: 5.5% 6.5% 5% 6.5%;
+    left: 0;
+    right: 0;
+    top: 450px;
+    max-width: 360px;
+    height: 200px;
+}
+
+.expodescription {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    margin: auto;
+}
+
+.expodescription .button-expoap {
+    width: 130px;
+    padding: 7px;
+}
+
+.buttonexpo {
+    font-family: Muli;
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.buttonexpo:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.buttonexpo:focus {
+    cursor: pointer;
+    opacity: 1;
+    outline: none;
+}
+
+.pagexpo {
+    width: 95%;
+    clear: both;
+    top: 0;
+    margin: auto;
+}
+
+#pagexpo1 {
+    background-color: rgb(59, 71, 90);
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.selectedexpo1 {
+    color: rgb(84, 93, 109);
+}
+
+#pagexpo2 {
+    background-color: rgb(147, 110, 104);
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.selectedexpo2 {
+    color: rgb(158, 121, 114);
+}
+
+#pagexpo3 {
+    background-color: rgb(181, 193, 207);
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.selectedexpo3 {
+    color: rgb(190, 200, 212);
+}
+
+.black {
+    color: rgb(80, 80, 80) !important;
+}
+
+#pagexpo4 {
+    background-color: rgb(116, 123, 119);
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.selectedexpo4 {
+    color: rgb(116, 123, 119);
+}
+
+
+/*
+#banner {
+    position: relative;
+}
+#vetor2 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95%;
+    max-width: 1200px;
+}*/
+
+
+/*primeira pagina - OBRA*/
+
+.flex {
+    display: flex;
+    float: left;
+}
+
+.descriptionimg {
+    width: 23.5%;
+    margin-right: 10.5%;
+    height: 100%;
+    background-color: rgba(240, 240, 240, 0.9);
+    margin-left: 8.5%;
+}
+
+#descriptionimg2 {
+    /*background-image: url(imagens/exposicao/banner2.jpg);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptiontext p {
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.01em;
+}
+
+#pagexpo1 .descriptiontext p {
+    color: rgb(210, 210, 210) !important;
+}
+
+#pagexpo2 .descriptiontext p {
+    color: rgb(220, 220, 220) !important;
+}
+
+#pagexpo3 .descriptiontext p {
+    color: rgb(80, 80, 80) !important;
+}
+
+#pagexpo4 .descriptiontext p {
+    color: rgb(210, 210, 210) !important;
+}
+
+.descriptionexpo {
+    width: 49%;
+}
+
+.bold {
+    font-weight: 400 !important;
+    font-size: 17px;
+}
+
+h4 {
+    text-transform: none;
+    color: rgb(240, 240, 240);
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+.infoexpo {
+    width: 100%;
+    height: 200px;
+    height: 150px;
+    display: flex;
+    margin-top: 40px;
+}
+
+h6 {
+    font-size: 17px;
+    font-family: Muli;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);
+}
+
+.marginright {
+    margin-right: 2%;
+}
+
+.infoexpotres {
+    width: 32%;
+}
+
+.infoexpotres p {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+    color: rgb(220, 220, 220);
+}
+
+.h6margin {
+    margin-left: 8.5%;
+    margin-top: 60px;
+    clear: both;
+    float: left;
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+.tableexpo {
+    clear: both;
+    margin-top: 50px!important;
+    margin: auto;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+    border-collapse: collapse;
+    border: 2px solid rgba(200, 200, 200, 0.3);
+    /*! border-radius: 60%; */
+}
+
+.tableexpo th {
+    text-align: left;
+}
+
+.tableexpo tr:nth-child(even) {
+    background-color: rgb(230, 230, 230);
+}
+
+.tableexpo tr:nth-child(2n-1) {
+    background-color: rgb(220, 220, 220);
+}
+
+.tableexpo th,
+.tableexpo td {
+    text-align: left;
+    height: 60px;
+    font-family: Muli;
+}
+
+.tableexpo th {
+    font-size: 16px;
+    font-weight: 400!important;
+    background-color: rgb(210, 210, 210);
+    padding: 0.2% 0% 0.2% 3%;
+    /*! font-size: 16px; */
+    font-family: Muli;
+    /*! font-weight: 400; */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 0!important;
+    border-left: 2px solid rgba(240, 240, 240, 0.2);
+    border-bottom: 2px solid rgba(240, 240, 240, 0.3);
+}
+
+.tableexpo td {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(80, 80, 80);
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    padding: 0.4% 0% 0.4% 3%;
+    border-left: 2px solid rgba(240, 240, 240, 0.2);
+}
+
+.col1 {
+    width: 19.505%;
+    font-weight: 400!important;
+}
+
+.col2 {
+    width: 19.505%;
+    padding-left: 1.66%;
+    padding-right: 1.66%;
+}
+
+.col3 {
+    margin-left: 1.66%;
+    width: 12.45%;
+}
+
+.col4 {
+    padding-left: 1.66%;
+    width: 12.45%;
+}
+
+.convidados {
+    background-color: rgb(234, 234, 234);
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.descriptionconvidado {
+    width: 49%;
+    margin-left: 8.5%;
+}
+
+.descriptionconvidado h6 {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 5px;
+}
+
+.descriptionconvidado .descriptiontext p {
+    color: rgb(80, 80, 80) !important;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.convidadoimg {
+    width: 23.5%;
+    margin-left: 10.5%;
+    height: 330px;
+}
+
+.convidadoimg img {
+    width: 100%;
+    -webkit-filter: grayscale(60%);
+}
+
+.maisconvidadosh4 {
+    margin-left: 8.5%;
+    display: inline;
+    margin-top: 60px;
+    float: left;
+}
+
+.quatrocol {
+    width: 23.5%;
+    margin-right: 2%;
+    height: 360px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.col1de4 .slick-slide {
+    height: auto;
+}
+
+.col1de4 .slick-track {
+    height: 380px!important;
+}
+
+.col1de4 {
+    clear: both;
+    padding-left: 8.5%;
+    padding-right: 6.5%;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.col1de4 .slick-dots {
+    position: relative;
+    bottom: -25px;
+    display: block;
+    width: 98%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.col1de4 .slick-dots li button::before {
+    font-size: 8px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    -webkit-filter: grayscale(70%);
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.quatrocol:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.quatrocol:hover .image {
+    opacity: 0.2;
+}
+
+.quatrocol:hover .middle {
+    opacity: 1;
+}
+
+.text a {
+    font-size: 80px;
+    font-weight: 500;
+    padding: 16px 32px;
+    font-family: Muli;
+}
+
+.quatrocol:hover .text {
+    animation: bounce 1s;
+    -webkit-animation: bounce 1s;
+}
+
+.legenda {
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 0;
+    float: left;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    text-align: center;
+}
+
+.legenda4 {
+    background-color: #747B77;
+}
+
+.legenda3 {
+    background-color: #B5C1CF;
+}
+
+.legenda2 {
+    background-color: #936E68;
+}
+
+.legenda1 {
+    background-color: #49576B;
+}
+
+.legenda h6 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-transform: none!important;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.local {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    /*! overflow: auto; */
+    float: left;
+}
+
+.localdiv {
+    float: left;
+    width: 38%;
+    margin-right: 2%;
+    height: 100%;
+    padding: 0 5.5% 0 5.5%;
+}
+
+.localcontent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.local h4 {
+    color: rgb(230, 230, 230);
+    font-size: 28px;
+    /*! margin-bottom: 60px; */
+}
+
+.local h6 {
+    color: rgb(230, 230, 230);
+    margin-bottom: 2px;
+}
+
+#mapexpo1 {
+    width: 49%;
+    height: 100%;
+    float: left;
+    border: 0;
+}
+
+.infoplace {
+    margin-top: 10px;
+}
+
+.infoplace p {
+    color: rgb(230, 230, 230);
+    /*! margin-top: 10px; */
+    /*! margin-bottom: 20px; */
+    display: inline-block;
+    width: 85%;
+    font-size: 16px;
+}
+
+.infoplace h6 {
+    margin-left: 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+i {
+    color: rgb(230, 230, 230);
+    width: 15%;
+    font-size: 26px !important;
+    /*! margin-top: 0; */
+    float: left;
+}
+
+.moradah6 {
+    display: inline-block;
+    margin-bottom: 7px !important;
+    width: 100%;
+    font-weight: 500;
+}
+
+.chegarh6{
+    margin-bottom: 10px!important;
+}
+
+.morada {
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    #tudo {
+        max-width: 1200px;
+    }
+    header {
+        max-width: 1200px;
+    }
+    .fixedheader {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .bannerexpoimg {
+        height: 500px;
+    }
+    .descriptionexpofundo {
+        padding: 2.5% 4.5% 2.5% 4.5%;
+        top: 330px;
+        max-width: 300px;
+        height: 200px;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    
+    .h1smaller{
+        font-size: 21px!important;
+        line-height: 28px;
+    }
+    
+    .expodescription .button-expoap {
+    width: 102px;
+    padding: 4px;
+}
+    
+    .expodescription .button-expoap a{
+        font-size: 11px;
+    }
+    
+    #pagexpo1{
+        padding-top:160px;
+    }
+    
+    #pagexpo2{
+        padding-top:160px;
+    }
+    
+    .bold{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .descriptiontext p{
+        line-height:24px;
+        font-size: 15px;
+    }
+    
+    h6{
+        font-size: 15px;
+    }
+    
+    .infoexpotres p{
+        font-size: 13px;
+    }
+    
+    .h6margin{
+        font-size: 20px;
+    }
+    
+    .tableexpo th,.tableexpo td{
+        height:53px;
+    }
+    
+    .tableexpo{
+        font-size:15px;
+    }
+    
+    #pagexpo1{
+        padding-bottom: 130px;
+    }
+    
+    .descriptionconvidado h6{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    
+    h4{
+        font-size: 28px;
+    }
+    
+    .local{
+        height: 350px;
+    }
+    
+    .local h6{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    
+    .infoplace p{
+        font-size: 13px;
+    }
+    
+    .moradah6{
+        font-size: 14px!important;
+    }
+    
+    .morada{
+        font-size: 13px;
+    }
+    
+    .infoplace p{
+        font-size: 14px;
+    }
+    
+    i{
+        font-size: 22px!important;
+    }
+    
+    .icon {
+    margin-bottom: 17px;
+}
+    
+     #bannerexpo3 .descriptionexpofundo {
+        max-width:329px;
+    }
+    
+    #bannerexpo4 .descriptionexpofundo {
+        max-width:329px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    #tudo {
+        max-width: 1150px;
+    }
+    header {
+        max-width: 1150px;
+    }
+    .fixedheader {
+        max-width: 1150px;
+    }
+}

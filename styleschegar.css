@@ -1,0 +1,539 @@
+main{
+margin-top: 60px;    
+}
+
+.h2center {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#chegar-page {
+    padding-top: 20px;
+    margin: auto;
+    overflow: auto;
+}
+
+#chegarbuttons {
+    width: 64.4%;
+    overflow: auto;
+    margin: auto;
+}
+
+.icon {
+    width: 23.14%;
+    float: left;
+    margin-right: 2.482%;
+    text-align: center;
+}
+
+.icon img {
+    width: 55%;
+    background-color: rgba(211,155,127,0.5);
+}
+
+.icon:hover img {
+    background-color: rgba(211,155,127,1);
+    cursor: pointer;
+}
+
+.icon:hover .button-chegar {
+    background-color: rgba(211,155,127,1);
+    cursor: pointer;
+}
+
+#icon4 {
+    margin-right: 0!important;
+}
+
+.button-chegar {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    float: left;
+    margin-right: 2.48%;
+    background-color:rgba(211,155,127,0.5);
+    box-sizing: border-box;
+}
+
+.button-chegar p {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.003em;
+    font-family: OpenSans;
+}
+
+.button-selected{
+    cursor: pointer;
+    background-color: #D39B7F!important;
+}
+
+.selectedbtn {
+    background-color: #D39B7F!important;
+}
+
+.pag-chegar {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+}
+
+#mapa1{
+        position: relative;
+    overflow: hidden;
+    float: left;
+    height: 500px;
+    width: 57.5%;
+    margin-right: 2%;
+}
+
+#cardiv {
+        width: 32.5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    float: left;
+    background-color:#D39B7F;
+    height: 500px;
+}
+
+#car2{
+    font-size: 17px;
+    font-family: Muli;
+    font-weight: 200;
+    color: rgb(80,80,80);
+    line-height: 28px;
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    width: 79%;
+    margin-left: 8.5%;
+    margin-right: 2%;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    padding-top: 100px;
+    overflow-y: scroll;
+}
+
+.chegardiv-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-align: center;
+    overflow: auto;
+}
+
+.chegardiv-text p{
+    line-height: 31px;
+    color: rgb(240,240,240);
+    font-size: 17px;
+}
+
+.chegardiv-text h3{
+    color: rgb(240,240,240);
+}
+
+
+#indicacao {
+    margin-top: 40px;
+    font-weight: 200;
+    float: left;
+    color: rgb(240,240,240);
+}
+
+#submit-map {
+   width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(80,80,80);
+    letter-spacing: 0.05em;
+    background-color: rgba(240,240,240,0.8);
+    float: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   box-sizing: border-box;
+}
+
+#submit-map p{
+    color: rgba(211,155,127,0.6);
+    font-weight: 400;
+    font-size: 12px;
+       font-family: OpenSans;
+}
+
+#submit-map:hover{
+     cursor: pointer;
+}
+
+#submit-map:hover p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.focus-submit{
+    background-color: rgba(240,240,240,1)!important;
+}
+
+.focus-submit p{
+    font-weight: 500!important;
+}
+
+#chegar{
+    overflow: auto;
+}
+
+/*#output div {
+    display:list-item;
+    list-style-type: decimal;
+}
+
+div.parent {
+    counter-reset: pseudoListNumbering;
+}
+
+div.counter::before {
+    counter-increment: pseudoListNumbering;
+    content: counter(pseudoListNumbering, decimal-leading-zero);
+}*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(200,200,200);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(200,200,200);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(200,200,200);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(200,200,200);
+}
+
+
+.pag-chegar input {
+        font-family: Muli;
+    font-weight: 300;
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+    width: 53%;
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 18px;
+    color: rgb(150,150,150);
+    box-sizing: border-box;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(150,150,150);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(150,150,150);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(150,150,150);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(150,150,150);
+}
+
+.pag-chegar input:focus{
+    outline: 0;
+    /*! border:2px solid  rgb(200,200,200); */
+    color: rgb(100,100,100);
+}
+
+/*comboio*/
+
+.bold{
+    font-weight: 500;
+}
+
+#comboiodiv {
+        width: 41%;
+    padding-right: 4%;
+    padding-left: 4%;
+    float: left;
+    background-color:#D39B7F;
+    height: 500px;
+}
+
+
+#button-chegar {
+   width: 41%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(80,80,80);
+    letter-spacing: 0.05em;
+    background-color: rgba(240,240,240,1);
+    /*! float: left; */
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+#button-chegar p{
+    color: rgba(211,155,127,0.6);
+    font-weight: 400;
+    font-size: 12px;
+    font-family: OpenSans;
+}
+
+#button-chegar:hover{
+    cursor: pointer;
+        background-color: rgba(240,240,240,0.9);
+}
+
+#mapa2{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 500px;
+    display: block;
+    width: 49%;
+    margin-right: 2%;
+    background-color: lightgray;
+}
+
+
+/*barco*/
+
+#barcodiv {
+        width: 41%;
+    padding-right: 4%;
+    padding-left: 4%;
+    float: left;
+    background-color:#D39B7F;
+    height: 440px;
+}
+#mapa3{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 440px;
+    display: block;
+    width: 49%;
+    margin-right: 2%;
+    background-color: lightgray;
+}
+
+#aviaodiv {
+        width: 41%;
+    padding-right: 4%;
+    padding-left: 4%;
+    float: left;
+    background-color:#D39B7F;
+    height: 400px;
+}
+#mapa4{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 400px;
+    display: block;
+    width: 49%;
+    margin-right: 2%;
+    background-color: lightgray;
+}
+
+#espacos{
+    width: 100%;
+    background-color:rgb(234,234,234);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+
+#espacos p:first-of-type {
+    font-weight: 200;
+font-family: Playfair;
+font-size: 21px;
+color: rgb(70, 70, 70);
+line-height: 39px;
+letter-spacing: 0.05em;
+margin: auto;
+width: 53%;
+}
+
+#espacos p:nth-of-type(2){
+    font-weight: 300;
+font-family: Muli;
+font-size: 19px;
+color: #D39B7F;
+letter-spacing: -0.01em;
+margin: auto;
+width: 51%;
+margin: auto;
+line-height: 35px;
+margin-top: 30px;
+opacity: 0.9;
+}
+
+#mapa5{
+    /*! width: 90%; */
+    height:600px;
+    margin: auto;
+    margin-top:60px;
+    background-color: lightgray;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+
+.numbloco img{
+        float: left;
+    width: 12%;
+    height: auto;
+    margin-right: 5%;
+    }
+    
+    .numbloco p {
+    float: left;
+    width: 83% !important;
+    font-family: Muli !important;
+    line-height: 27px !important;
+    font-size: 17px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0em !important;
+}
+
+#numeros{
+        margin-left: 7.5%;
+    margin-right: 7.5%;
+    overflow: auto;
+        margin-top: 20px;
+}
+
+.numbloco {
+    width: 31.3%;
+    text-align: left;
+    display: inline-block;
+    margin: 1%;
+    float: left;
+    height: 65px;
+}
+
+@media screen and (max-width: 1441px) {
+    .h2center{
+        font-size: 28px;
+    }
+    
+     .button-chegar {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .button-chegar p {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+    }
+    
+    #mapa1{
+        height: 400px;
+    }
+    
+    #cardiv{
+        height: 400px;
+    }
+    
+    h3{
+        font-size: 26px;
+    }
+    
+    .chegardiv-text p{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    
+    #indicacao{
+        margin-top: 30px;
+    }
+    
+    .pag-chegar input{
+     padding-top: 5px;   
+    padding-bottom: 5px;
+    font-size: 16px;
+    }
+    
+    #submit-map{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+    #submit-map:hover p{
+    font-weight: 500;
+    font-size: 13px;
+}
+    
+    #espacos p:first-of-type {
+        width: 53%;
+}
+
+#espacos p:nth-of-type(2){
+width: 53%;
+}
+    #espacos{
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    
+    #mapa5{
+        height: 500px;
+    }
+    
+    #pag-chegar2{
+        height: 400px;
+    }
+    
+    #mapa2{
+        height: 400px;
+    }
+    
+    #comboiodiv{
+        height: 400px;
+    }
+    
+    #barcodiv{
+        height: 400px;
+    }
+    
+    #mapa3{
+        height: 400px;
+    }
+    
+    #mapa4{
+        height: 350px;
+    }
+    
+    #aviaodiv{
+        height: 350px;
+    }
+    
+    .numbloco img{
+        width:12%;
+    }
+
+}
