@@ -61,8 +61,6 @@ $(document).ready(function() {
 	});
     
     //organizar por idades link
-
-    $var page=1;
   
   $('.iconidade').click(function() {
 window.location = document.getElementById('organizar').href
