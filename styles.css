@@ -86,11 +86,11 @@
 
 a {
    position: relative;
-z-index: 10;
-text-decoration: none;
-font-family: OpenSans;
-font-weight: 200;
-letter-spacing: 0.07em;
+    z-index: 10;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-weight: 200;
+    letter-spacing: 0.07em;
     font-size: 12px;
 }
 
