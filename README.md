@@ -142,15 +142,36 @@ debate do Trienal de Arquitetura de Lisboa.
 
 ### 2. Elaboração das maquetes
 
+![image alt >](/rel_images/2.PNG)
+
 ### 3. Conceito e Paleta Cromática
 
+#### Maquete 1
+![image alt >](/rel_images/3.PNG)
+
+#### Maquete 2
+![image alt >](/rel_images/4.PNG)
+
+#### Maquete 3
+![image alt >](/rel_images/5.PNG)
+
+#### Maquete 4
+![image alt >](/rel_images/6.PNG)
+
+#### A 5ª cor
+![image alt >](/rel_images/7.PNG)
+
 ### 4. Paleta cromática
+![image alt >](/rel_images/8.PNG)
 
-### 5. Página **“Programa” : filtros**
+### 5. Página *Programa* : filtros
+![image alt >](/rel_images/9.PNG)
 
-### 6 Página “Como chegar”
+### 6 Página *Como chegar*
+![image alt >](/rel_images/10.PNG)
 
 ### 7. Slider
+![image alt >](/rel_images/11.PNG)
 
 ### 8. Tipografia
 
@@ -159,5 +180,7 @@ debate do Trienal de Arquitetura de Lisboa.
 - *Muli* na descrição
 
 - *Open Sans* no botão
+
+![image alt >](/rel_images/12.PNG)
 
 
