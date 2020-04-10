@@ -138,7 +138,7 @@ debate do Trienal de Arquitetura de Lisboa.
 
 ### 1. Pesquisa Indireta (representações da arquitetura)
 
-<img src="https://github.com/dianaamfr/dianaamfr.github.io/tree/master/rel_images/1_1.PNG">
+![image alt >](/rel_images/1_1.PNG)
 
 ### 2. Elaboração das maquetes
 
