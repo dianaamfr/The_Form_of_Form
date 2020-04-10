@@ -24,6 +24,8 @@ mas cujo programa é deliberadamente acessível para todas as idades, interesses
 nacionalidades, procurando divulgar a arquitetura contemporânea com uma extensa
 audiência.
 
+***
+
 ## DESENVOLVIMENTO
 
 ### 1. Pesquisa direta e indireta
@@ -73,6 +75,8 @@ de modo a sugerir a importância de todas elas em conjunto, é utilizada nas exp
 que não se associam diretamente a nenhuma das quatro etapas referidas, ou seja, nas
 exposições satélite e de menos relevância (anexo 3).
 
+***
+
 ### 2. Estrutura e Layout
 
 Definido o conceito que distinguiria o website, baseado, portanto, na valorização das
@@ -121,6 +125,8 @@ identidade ao website através da sua força visual e peso. Para o restante cont
 utilizei uma fonte não serifada de fácil leitura, Muli. Utilizei ainda a fonte OpenSans para o
 menu e para botões, de modo a criar uma ligação com o logótipo do evento. (anexo 8)
 
+***
+
 ### 3. Conclusão
 
 Em suma, devo destacar que, a estruturação e organização da informação, foi pensada
@@ -135,7 +141,9 @@ Assim, o website resultante reflete as diversas etapas da construção da obra
 arquitetónica, numa sociedade em rápida transformação, nas quais se centra o discurso e
 debate do Trienal de Arquitetura de Lisboa.
 
-## ANEXOS
+***
+
+## Anexos
 
 ### 1. Pesquisa Indireta (representações da arquitetura)
 
